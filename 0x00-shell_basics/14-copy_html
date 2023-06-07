@@ -1,8 +1,2 @@
 #!/bin/bash
-current_dir=$(pwd)
-parent_dir=$(dirname "$current_dir")
-find . -maxdepth 1 -type f -name "*.html" | while read -r file; do
-    if [ ! -e "$parent_dir/$file" ] || [ "$file" -nt "$parent_dir/$file" ]; then
-        cp -u "$file" "$parent_dir"
-    fi
-done
+cp -u *.html ../
