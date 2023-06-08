@@ -1,0 +1,1 @@
+this is y second readme file in the alx-system_engineering-devops inder the directory 0x01-shell_permissions
