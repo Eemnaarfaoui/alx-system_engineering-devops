@@ -1,0 +1,3 @@
+#!/bin/bash
+filename="list"
+sort "$filename" | uniq -u
