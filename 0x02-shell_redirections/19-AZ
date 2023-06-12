@@ -1,2 +1,2 @@
 #!/bin/bash
-input="$1"; echo "$input" | tr 'Ac' 'Ze'
+input=$(</dev/stdin); echo "$input" |  sed 's/A/Z/g; s/c/e/g'
